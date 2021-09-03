@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent"
+    tools:context=".SpeakerProfileActivity">
+
+    <TextView
+        android:id="@+id/tv_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/kotlin_kmm_for_multi_os"/>
+    <TextView
+        android:id="@+id/speaker"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="15dp"
+        android:text="@string/timz_owen"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv_Profile"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="20dp"
+        android:src="@drawable/speaker1"/>
+    <TextView
+        android:id="@+id/role"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="15dp"
+        android:text="@string/android_developer"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

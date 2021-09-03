@@ -1,7 +1,9 @@
 package com.codewithtimzowen.databinding
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.codewithtimzowen.databinding.adapters.ProfileAdapter
@@ -82,5 +84,19 @@ class MainActivity : AppCompatActivity() {
         }
         val adapter = ProfileAdapter(speakersList)
         recyclerView.adapter = adapter
+
+        adapter.setOnClickListener(object : ProfileAdapter.OnItemClickListener{
+            override fun onItemClick(position: Int) {
+
+                //pass data to the next intent
+                val intent = Intent(this@MainActivity,SpeakerProfileActivity::class.java)
+                intent.putExtra("profilePicture",speakersList[position].speakerProfile)
+                intent.putExtra("speakerName",speakersList[position].speakerName)
+                intent.putExtra("speakerTopic",speakersList[position].speakerTopic)
+                intent.putExtra("speakerRole",speakersList[position].speakerRole)
+                startActivity(intent)
+            }
+
+        })
     }
 }

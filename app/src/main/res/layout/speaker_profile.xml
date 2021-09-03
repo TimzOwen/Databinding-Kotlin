@@ -34,7 +34,7 @@
             android:textStyle="bold"
             android:textSize="18sp"
             android:gravity="bottom"
-            android:text="@string/timz_owen"/>
+            android:text="@string/tim_owen"/>
 
         <TextView
             android:id="@+id/tv_Topic"
