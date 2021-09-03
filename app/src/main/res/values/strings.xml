@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Databinding</string>
+    <string name="timz_owen">Timz Owen</string>
+    <string name="data_binding_in_kotlin">Data binding in kotlin</string>
+    <string name="role">Role</string>
+
+    <!-- STEP 001  arrays containing speaker names , topic & profile-->
+
+    <string name="speaker1">Timz Owen</string>
+    <string name="speaker2">Juma Allan</string>
+    <string name="speaker3">Pappi 254</string>
+    <string name="speaker4">Harun Wangereka</string>
+    <string name="speaker5">Harun Mbaabu</string>
+    <string name="speaker6">Ngesa Marvin</string>
+
+    <string name="topic1">Android Data Persistence</string>
+    <string name="topic2">Android blogging in 2021</string>
+    <string name="topic3">Coroutine in Kotlin for mobile</string>
+    <string name="topic4">Kotlin KMM for multi OS</string>
+    <string name="topic5">Hacking AI in android devices</string>
+    <string name="topic6">Embedded Chips in android </string>
+
+
+    <string name="role1">Android Developer</string>
+    <string name="role2">Software Engineer</string>
+    <string name="role3">community Manager</string>
+    <string name="role4">Android Instructor</string>
+    <string name="role5">Product Manager</string>
+    <string name="role6">Technical Hardware Engineer</string>
+
+
 </resources>
