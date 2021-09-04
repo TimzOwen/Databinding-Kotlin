@@ -25,5 +25,6 @@ Getting Started
 1. clone the project starter code
 2. follow the comments step by step  ( Binding)
 3. Follow the onClick steps 
-4. Learn how to pass the data ti the intent of speaker profile
+4. Learn how to pass the data to the intent of speaker profile
+<!-- Just a typo-->
 
