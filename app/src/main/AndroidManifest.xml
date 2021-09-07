@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Databinding">
         <activity android:name=".SpeakerProfileActivity"
-            android:label="Speaker Profile"/>
+            android:label="Speaker Profile"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

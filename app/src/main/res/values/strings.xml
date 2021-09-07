@@ -30,6 +30,8 @@
     <string name="kotlin_kmm_for_multi_os">Kotlin KMM for Multi Os</string>
     <string name="timz_owen">Timz Owen</string>
     <string name="android_developer">Android developer</string>
+    <string name="home">Home</string>
+    <string name="share_meet_up">share Meet up</string>
 
 
 </resources>
